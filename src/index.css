@@ -56,7 +56,7 @@ body {
   font-size: 28px;
 }
 
-.question-text {
+.question {
   margin-bottom: 12px;
 }
 
@@ -110,4 +110,23 @@ button:focus {
 
 button svg {
   margin-right: 5px;
+}
+.next > button{
+  border: 1px slateblue;
+}
+.score {
+  background-color: #252d4a;
+}
+.score > button {
+  background-color: #252d4a !important;
+  width: 100%;
+  font-size: 16px;
+  color: white;
+  border-radius: 15px;
+  display: flex;
+  padding: 5px;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1 px solid black!important;
+  cursor: pointer;
 }
